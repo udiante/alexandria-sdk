@@ -3,9 +3,19 @@ Alexa development utils
 
 # Usage
 
-- Example usage with semantic versioning
+- Download last compatible versions versions with patches
 ```javascript
-"alexandria-sdk": "git://github.com:udiante/alexandria-sdk#semver:^0.0.1"
+"alexandria-sdk": "git://github.com:udiante/alexandria-sdk#semver:^1.0"
+```
+
+- Example usage with semantic versioning (For minor releases)
+```javascript
+"alexandria-sdk": "git://github.com:udiante/alexandria-sdk#semver:^1.0.X"
+```
+
+- Example usage with semantic versioning (For patch releases only)
+```javascript
+"alexandria-sdk": "git://github.com:udiante/alexandria-sdk#semver:~1.0.0"
 ```
 
 - Example usage github with tag
