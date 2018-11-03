@@ -1,6 +1,6 @@
 {
   "name": "alexandria-sdk",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Alexa development utils",
   "main": "index.js",
   "private": true,
@@ -11,13 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/udiante/alexandria-sdk.git"
   },
-  "author": "udiante",
+  "author": "Alejandro Quibus",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/udiante/alexandria-sdk/issues"
   },
   "homepage": "https://github.com/udiante/alexandria-sdk#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "dateformat": "^3.0.3",
+    "string-template": "^1.0.0"
   }
 }
