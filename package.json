@@ -19,6 +19,7 @@
   "homepage": "https://github.com/udiante/alexandria-sdk#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "dateformat": "^3.0.3"
+    "dateformat": "^3.0.3",
+    "string-template": "^1.0.0"
   }
 }
