@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/udiante/alexandria-sdk.git"
   },
-  "author": "udiante",
+  "author": "Alejandro Quibus",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/udiante/alexandria-sdk/issues"
