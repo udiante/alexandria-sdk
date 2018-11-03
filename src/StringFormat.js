@@ -1,1 +1,1 @@
-module.export = require('string-template')
+module.exports = require('string-template')
