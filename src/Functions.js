@@ -49,7 +49,6 @@ exports.convertToDateInJapan = function (d) {
     var offset = 9
     var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
     var nd = new Date(utc + (3600000 * offset));
-    var a = "The local time is " + nd.toLocaleString();
     return nd
 }
 
