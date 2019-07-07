@@ -68,7 +68,7 @@ module.exports.buildResponse = function (handlerInput, responseObject) {
         responseHandler.withStandardCard(card.title, card.description, card.smallMediaUrl, card.largeMediaUrl)
     }
 
-    if (responseObject.hasAPL() && Utils.supportsAPL(handlerInput))  {
+    if (responseObject.hasAPL() && AlexaUtils.supportsAPL(handlerInput))  {
         handlerInput.responseBuilder.addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
             version: '1.0',
