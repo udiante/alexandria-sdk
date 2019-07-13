@@ -14,9 +14,9 @@ var ResponseModel = {
         document: undefined, //APL Document to be rendered 
         dataSources: {} //APL DataSources to be used with the document
     },
-    CARD : { // Card data
-        title : undefined, //String
-        description : undefined, //String
+    CARD: { // Card data
+        title: undefined, //String
+        description: undefined, //String
         smallMediaUrl: undefined, //String
         largeMediaUrl: undefined, //String
     },
@@ -68,7 +68,7 @@ module.exports.buildResponse = function (handlerInput, responseObject) {
         responseHandler.withStandardCard(card.title, card.description, card.smallMediaUrl, card.largeMediaUrl)
     }
 
-    if (responseObject.hasAPL() && AlexaUtils.supportsAPL(handlerInput))  {
+    if (responseObject.hasAPL() && AlexaUtils.supportsAPL(handlerInput)) {
         handlerInput.responseBuilder.addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
             version: '1.0',

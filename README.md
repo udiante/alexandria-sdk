@@ -28,14 +28,7 @@ Alexa development utils
 "alexandria-sdk": "udiante/alexandria-sdk"
 ```
 
-- Usage with github repository example using master:
-
+- Local development
 ```javascript
-"express": "expressjs/express"
-```
-
-- Usage with github repository example using a tag version (#TAG_NAME):
-
-```javascript
-"express": "expressjs/express#1.0.27"
+"alexandria-sdk": "file:./../alexandria-sdk",
 ```
